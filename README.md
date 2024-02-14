@@ -6,7 +6,7 @@ A Helm Plugin to download all dependencies and vendor them by extracting the `.t
 - [Helm](https://helm.sh/docs/intro/install/)
 - [yq](https://github.com/mikefarah/yq/#install) (for testing and development)
 
-## Install
+## Install Plugin
 ```bash
 helm plugin install https://github.com/SecKatie/helm-vendor-plugin
 ```
@@ -16,17 +16,17 @@ helm plugin install https://github.com/SecKatie/helm-vendor-plugin
 helm vendor
 ```
 
-## Update
+## Update Plugin
 ```bash
 helm plugin update vendor
 ```
 
-## Uninstall
+## Uninstall Plugin
 ```bash
 helm plugin remove vendor
 ```
 
-## Testing
+## Testing and Development
 ```bash
 git clone git@github.com:SecKatie/helm-vendor-plugin.git
 # or
