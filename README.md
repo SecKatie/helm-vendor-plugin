@@ -20,3 +20,7 @@ git clone https://github.com/SecKatie/helm-vendor-plugin.git
 cd helm-vendor-plugin
 make test
 ```
+
+## Next Steps
+- [ ] Add a version flag to the `helm vendor` command
+- [ ] Capture the `--help` flag and provide `helm vendor` usage information
