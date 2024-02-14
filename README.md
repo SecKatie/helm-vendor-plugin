@@ -39,3 +39,4 @@ make test
 ## Next Steps
 - [ ] Add a version flag to the `helm vendor` command
 - [ ] Capture the `--help` flag and provide `helm vendor` usage information
+- [ ] Add an option to update the dependencies before vendoring instead of using the version in the `Chart.lock` file
