@@ -1,6 +1,11 @@
 # helm-vendor-plugin
 A Helm Plugin to download all dependencies and vendor them by extracting the `.tgz` distribution files.
 
+## Prerequisites
+
+- [Helm](https://helm.sh/docs/intro/install/)
+- [yq](https://github.com/mikefarah/yq/#install) (for testing and development)
+
 ## Install
 ```bash
 helm plugin install https://github.com/SecKatie/helm-vendor-plugin
@@ -9,6 +14,16 @@ helm plugin install https://github.com/SecKatie/helm-vendor-plugin
 ## Usage
 ```bash
 helm vendor
+```
+
+## Update
+```bash
+helm plugin update vendor
+```
+
+## Uninstall
+```bash
+helm plugin remove vendor
 ```
 
 ## Testing
