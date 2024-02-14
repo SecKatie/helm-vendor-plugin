@@ -1,0 +1,7 @@
+name: "vendor"
+version: 0.1.0
+description: |
+  The Helm Dependency Extractor Plugin is used to extract any dependencies that are updated in the Helm Chart.
+
+  This allows the user to simply vendor the charts and perform security, linting, and other automated analysis on its dependencies. Additionally this helps the user to prevent supply chain attacks by ensuring that the dependencies are up to date and secure.
+command: "$HELM_PLUGIN_DIR/scripts/run.sh"
